@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    font-family: "Playfair Display", serif; 
+}
+.underTopbar{
+    background-color: slategrey;
+    display:flex;
+    gap: 2px;
+    
+}

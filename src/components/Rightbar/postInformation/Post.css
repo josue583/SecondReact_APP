@@ -1,0 +1,47 @@
+.Post{
+    width: 600px;
+    height: 300px;
+    box-shadow: 1px 0.5px 10px 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.postdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size:20px;
+}
+.postIcons{
+    display: flex;
+    gap:5px;
+}
+.singleIcon{
+    /* display: flex; */
+    display: flex;
+    align-items: center;
+}
+.icons{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgb(36, 36, 177);
+    /* border: 2px solid black; */
+}
+.heartIcons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:red;
+    
+
+}
+.peopleLikeMessage{
+    width: 10;
+    padding-left: 20px;
+   text-align: center;
+}
+#postImage{
+    width: 60%;
+    height: 60%;
+    
+}

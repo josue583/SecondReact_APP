@@ -1,0 +1,77 @@
+.RightBar{
+    background-color: whitesmoke ;
+    width: 100%;
+    padding-left:300px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.feed{
+    background-color:whitesmoke;
+    width: 600px;
+    height: 160px;
+    box-shadow: 1px 2px 3px 4px rgb(211, 211, 211);
+    border-radius: 5px;
+}
+.shareTitle{
+    pointer-events: none;
+    
+    outline: none;
+    border: none;
+    font-size: 15px;
+
+}
+.shareTitle:focus{
+    outline: none;
+}
+.sharePersonProfile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.shareDetails{
+    display: flex;
+    padding: 20px;
+    gap: 5px;
+    
+}
+.hr{
+    width: 90%;
+    margin-left: 20px;
+}
+.selectImage{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.imageVideo{
+    display: flex;
+    flex-direction: column;
+}
+.shareImageIcons{
+    margin-top: 10px;
+}
+.selectMoreImages{
+    display: flex;
+    align-items: center;
+    /* gap: 2px; */
+}
+.shareButton{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(53, 115, 248);
+    color: white;
+    font-size: 20px;
+}
+.shareButton:hover{
+    color: rgb(250, 255, 253);
+    background-color: rgb(16, 32, 71);
+    font-size: 20px;
+    border: none;
+}
+.leftOfRightBar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
